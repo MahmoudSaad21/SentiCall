@@ -24,7 +24,7 @@ import plotly.graph_objects as go
 warnings.filterwarnings("ignore")
 
 # Configure Google Generative AI with a valid API key
-genai.configure(api_key='AIzaSyC1o3sWJiN9sLcE4PvWyW21xz0phRiXXZE')
+genai.configure(api_key='your_API_Key')
 
 # Initialize chat session only once
 @st.cache_resource
@@ -823,7 +823,7 @@ def customer_dataset_chat_page():
         model="gemini-1.5-flash-8b",
         temperature=0,
         verbose=True,
-        google_api_key="AIzaSyC1o3sWJiN9sLcE4PvWyW21xz0phRiXXZE"
+        google_api_key="your_API_Key"
     )
     agent = create_csv_agent(llm, csv_file_path, verbose=False, allow_dangerous_code=True)
 
