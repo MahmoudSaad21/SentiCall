@@ -350,7 +350,7 @@ def dataset_analysis_page():
     st.title("Customer Dataset Analysis & Visualization")
 
     # Load Dataset
-    csv_file_path = 'CompanyReviews.csv'
+    csv_file_path = 'datasets/CompanyReviews.csv'
     df = pd.read_csv(csv_file_path)
     if df is not None:
             # Dataset Overview
@@ -815,7 +815,7 @@ def customer_dataset_chat_page():
     </style>
 """, unsafe_allow_html=True)
     st.title("Chatting With All Customer Dataset")
-    csv_file_path = 'cleaned_customer_calls.csv'
+    csv_file_path = 'datasets/cleaned_customer_calls.csv'
     df = pd.read_csv(csv_file_path)
 
     # Initialize the LLM wrapper and CSV agent
