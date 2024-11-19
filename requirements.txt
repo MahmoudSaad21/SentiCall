@@ -4,6 +4,7 @@ transformers
 nltk
 joblib
 qalsadi
+langchain_experimental
 google-generativeai
 speechrecognition
 pydub
