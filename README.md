@@ -23,7 +23,9 @@ This project provides an interactive web application that allows users to analyz
 
 ### 🚀 **Live Deployment**
 [Click here to access the live application!](#)  
-*(Replace `#` with your deployment link.)*
+To access the application, use the following credentials:  
+- **Username:** `Mohamed Ammar`  
+- **Password:** `0000`
 
 ---
 
