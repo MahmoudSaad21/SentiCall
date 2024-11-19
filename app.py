@@ -37,11 +37,11 @@ chat = initialize_chat()
 # Load models and tokenizer only once
 @st.cache_resource
 def load_models():
-    vectorizer = joblib.load('vectorizer.joblib')
-    logistic_model = joblib.load('logistic_model.joblib')
+    vectorizer = joblib.load('models/vectorizer.joblib')
+    logistic_model = joblib.load('models/logistic_model.joblib')
     tokenizer = AutoTokenizer.from_pretrained("asafaya/bert-mini-arabic")
     bert_model = CustomBertClassifier()
-    bert_model.load_state_dict(torch.load('bert_classifier.pth'), strict=False)
+    bert_model.load_state_dict(torch.load('models/bert_classifier.pth'), strict=False)
     bert_model.eval()
     return vectorizer, logistic_model, tokenizer, bert_model
 
