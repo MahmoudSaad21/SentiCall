@@ -5,6 +5,7 @@ nltk
 joblib
 qalsadi
 langchain_experimental
+tabulate
 google-generativeai
 speechrecognition
 pydub
