@@ -21,12 +21,6 @@ This project provides an interactive web application that allows users to analyz
 ### 🌍 **Tableau Dashboard Integration**
 - Access detailed customer feedback visualizations through an external Tableau dashboard.
 
-### 🚀 **Live Deployment**
-[Click here to access the live application!](#)  
-To access the application, use the following credentials:  
-- **Username:** `Mohamed Ammar`  
-- **Password:** `0000`
-
 ---
 
 ## Installation
