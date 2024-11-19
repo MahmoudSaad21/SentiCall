@@ -27,7 +27,7 @@ This project provides an interactive web application that allows users to analyz
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/arabic-sentiment-chatbot.git
+git clone https://github.com/MahmoudSaad21/SentiCall.git
 cd arabic-sentiment-chatbot
 ```
 
